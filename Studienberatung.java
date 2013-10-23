@@ -5,5 +5,8 @@ import java.util.*;
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Hast du Abitur?");
 		String antwort = scanner.next();
+		if (answer.equalsIgnoreCase("j")){
+			System.out.println("Auf jeden Fall studieren.");
+		}
 	}
 }
