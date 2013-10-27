@@ -8,5 +8,8 @@ import java.util.*;
 		if (antwort.equalsIgnoreCase("n")){
 			//hier Code für kein Abitur
 		}
+		else if (answer.equalsIgnoreCase("j")){
+			System.out.println("Auf jeden Fall studieren.");
+		}
 	}
 }
